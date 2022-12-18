@@ -1,0 +1,135 @@
+:root {
+    /* Mi paleta estandar */
+    --color-sea: #14656f;   /* Buscar mar en inglés */
+    --color-blue: #114d55;  /* buscar 'marino' en inglés */
+    --color-cyan: #499b76;
+    --color-bone: #e8eac1;
+    --color-kruk: #aeb187;  /* Buscar craneo en inglés */
+    --color-lima: #e98433;  /* Cambiar nombre */
+    --color-indi: #ab291f;
+    --color-black: #000;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: var(--color-sea);
+    position: relative;
+}
+
+.console-back {
+    height: 26rem;
+    width: 16rem;
+    margin: auto;
+    border-radius: 1rem 1rem 3rem 3rem;
+    background-color: var(--color-kruk);
+    box-shadow: #0000008e 0 0.5rem 2rem;
+}
+
+.console-front {
+    height: 24rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem 1rem 3rem 3rem;
+    background-color: var(--color-bone);
+}
+
+.screen {
+    display: block;
+    height: 14rem;
+    width: 14rem;
+    border: var(--color-cyan) double 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--color-black) 0 0 0.5rem;
+    padding: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--color-black);
+    text-align: center;
+    color: green;
+    text-shadow: greenyellow 0 0 0.2rem;
+}
+
+.options {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+}
+
+.options > button {
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    margin: auto;
+    box-shadow: var(--color-black) 0 0.1rem 0.3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.options > button:active {
+    box-shadow: none;
+    transition: 0.2s;
+}
+
+.options button > img {
+    height: 60%;
+}
+
+.button-piedra {
+    background-color: var(--color-indi);
+    color: var(--color-bone);
+}
+
+.button-papel {
+    background-color: #e98433;
+    color: var(--color-bone);
+}
+
+.button-tijera {
+    background-color: var(--color-blue);
+    color: var(--color-bone);
+}
+
+.extra {
+    height: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+.port {
+    height: 0.5rem;
+    width: 2rem;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: #686952;
+}
+
+.credits {
+    position: absolute;
+    height: 3rem;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.credits a {
+    color: var(--color-bone);
+    transition: 0.3s;
+}
+
+.credits a:active {
+    color: var(--color-indi);
+}
+
+.credits a:hover {
+    color: var(--color-lima);
+    text-decoration: none;
+    transition: 0.3s;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Reyes Ortiz">
+    <title>Piedra-Papel-Tijera</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="src/img/game.png">
+    <script src="src/js/code.js"></script>
+</head>
+<body>
+    <div class="console-back">
+        <div class="console-front">
+            <output id="screen" class="screen"></output>
+            <div class="options">
+                <button class="button-piedra" onclick="game('piedra')">
+                <img src="src/img/piedras.png" alt="">
+                </button>
+                <button class="button-papel" onclick="game('papel')">
+                <img src="src/img/papel-higienico.png" alt="">
+                </button>
+                <button class="button-tijera" onclick="game('tijera')">
+                <img src="src/img/tijeras.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="extra">
+            <div class="port"></div>
+        </div>
+    </div>
+    <div class="credits">
+        <p>Made width ❤️ by <a href="https://github.com/danireyes-arg" target="_blank">Daniel R.</a></p>
+    </div>
+</body>
+</html>
