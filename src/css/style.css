@@ -1,11 +1,11 @@
 :root {
     /* Mi paleta estandar */
-    --color-sea: #14656f;   /* Buscar mar en inglés */
-    --color-blue: #114d55;  /* buscar 'marino' en inglés */
+    --color-sea: #14656f;
+    --color-blue: #114d55;
     --color-cyan: #499b76;
     --color-bone: #e8eac1;
-    --color-kruk: #aeb187;  /* Buscar craneo en inglés */
-    --color-lima: #e98433;  /* Cambiar nombre */
+    --color-kruk: #aeb187;
+    --color-lima: #e98433;
     --color-indi: #ab291f;
     --color-black: #000;
 }
